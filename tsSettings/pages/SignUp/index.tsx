@@ -9,6 +9,7 @@ const SignUP = () =>{
     const [passwordCheck, setPasswordCheck] =useState('')
     const [mismatchError, setMismatchError]=useState(false);
 
+    
     const onChangeEmail = useCallback(
         (e)=>{
         setEmail(e.target.value);
