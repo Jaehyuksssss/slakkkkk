@@ -69,8 +69,8 @@ const SignUP = () =>{
                 <Input type="password" id="password" name="password" value={password} onChange={onChangePassword} />
               </div>
             </Label>
-            <Label id="password-check-label">
-              <span>비밀번호 확인</span>
+            <Label id='password-check-label'>
+              <span> 비밀번호 확인</span>
               <div>
                 <Input
                   type="password"
@@ -80,7 +80,7 @@ const SignUP = () =>{
                   onChange={onChangePasswordCheck}
                 />
               </div>
-              {/* {mismatchError && <Error>비밀번호가 일치하지 않습니다.</Error>}
+              {/* {mismatchError&&<Error>비밀번호가 일치하지 않습니다.</Error>}
               {!nickname && <Error>닉네임을 입력해주세요.</Error>}
               {signUpError && <Error>{signUpError}</Error>}
               {signUpSuccess && <Success>회원가입되었습니다! 로그인해주세요.</Success>} */}
