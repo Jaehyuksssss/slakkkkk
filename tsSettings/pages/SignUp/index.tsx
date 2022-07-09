@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { Success, Form, Error, Label, Input, LinkContainer, Button, Header } from './styles';
 
+
 const SignUP = () =>{
     const [email,onChangeEmail] =useInput('');
     const [nickname,onChangeNickname] =useInput('')
